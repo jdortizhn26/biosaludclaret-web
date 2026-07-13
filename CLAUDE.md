@@ -40,6 +40,9 @@ Imágenes nuevas también van en la raíz y se referencian sin carpeta.
   antes de commitear (no hay CI ni build que atrape errores).
 - Datos de contacto reales del titular (RTN, WhatsApp, correo) están en el
   README; si cambian, actualizar `index.html` y README juntos.
+- **Los merges a producción los hace Claude, no el usuario** (regla de todo el
+  ecosistema). Preguntarle primero cuándo quiere hacer el merge; solo se fusiona
+  con su confirmación en la conversación.
 
 ## Configuración y despliegue (REGLA)
 
